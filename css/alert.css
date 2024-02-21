@@ -81,6 +81,78 @@ html {
   @media (min-width: 992px) { 
 .navbar-expand-lg .navbar-nav {
     flex-direction: row;
-    margin-left: 1100px;
+    display: flex;
+    justify-content: right;
 }
   }
+
+ .px-lg-5 {
+  padding: 0;
+ }
+
+ .nav-link {
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ }
+
+ .cart-badge {
+  margin-left: 10px;
+ }
+
+ .sort-low {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.sort-high {
+  background-color: #f44336; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button-sort {
+  margin-left: 200px;
+}
+
+.low-button,
+.high-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.low-button:hover,
+.high-button:hover {
+    background-color: #45a049;
+}
+
+.px-lg-5 {
+  display: flex;
+  justify-content: space-between;
+}
+
