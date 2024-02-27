@@ -4,4 +4,5 @@ document.addEventListener("partialsLoaded", () => {
     import('./products-service.js');
     import('./cart.js');
     import('./product-list.js');
+    import('./sort.js');
 });
